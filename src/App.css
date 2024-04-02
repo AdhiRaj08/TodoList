@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+}
+.main{
+  background-color: rgb(42, 41, 41);
+  width: 40vm;
+  color: white;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  width: 100x;
+  height: 30px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: .5%;
+  background-color: blue
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button:hover{
+  background-color: rgba(0, 0, 255, 0.87)
+}
+.inputwrp{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inputForm{
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label{
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.btnSave{
+  width: 100px;
+  height: 30px;
+  pad: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.Card{
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 450px){
+  .main{width: 85vm;}
 }
