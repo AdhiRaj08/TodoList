@@ -1,34 +1,56 @@
-# Getting Started with Create React App
-## Available Scripts
+###Task Board App
 
-In the project directory, you can run:
+##Overview
+Task Board App is a simple React application to manage tasks. Users can add new tasks, mark tasks as complete, and delete tasks.\
 
-### `npm start`
+##Features
+Add new tasks with title and description
+Mark tasks as complete
+Delete tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##Setup and Installation
+1. Clone the Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Copy code
+`git clone https://github.com/your-username/task-board-app.git`
+2. Navigate to the Project Directory
 
-### `npm test`
+Copy code
+`cd task-board-app`
+3. Install Dependencies
 
-Launches the test runner in the interactive watch mode\
+Copy code
+`npm install`
+Running the Application
+Development Mode
+To run the app in development mode, execute the following command:
 
-### `npm run build`
+Copy code
+`npm start`
+Open `http://localhost:3000` to view it in the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The page will reload if you make edits.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Production Build
+To build the app for production, execute the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Copy code
+`npm run build`
+This will create a build folder in the project directory with optimized and minified files.
 
-### `npm run eject`
+##Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Launch the application by following the "Running the Application" section.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Click on the "Add New Task!!" button in the header section to add a new task.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-Enter the task title and description in the input fields.
+
+-Click on "Save Task" to save the task or "Cancel" to clear the input fields.
+
+-You can mark a task as complete by clicking the "Complete" button on the task card.
+
+-You can delete a task by clicking the "Delete" button on the task card.
+
+##Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
