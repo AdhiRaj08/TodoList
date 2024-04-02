@@ -1,7 +1,9 @@
 # Task Board App
 
 ## Overview
-Task Board App is a simple React application to manage tasks. Users can add new tasks, mark tasks as complete, and delete tasks. It does not have redux for state management.
+Task Board App is a simple React application to manage tasks. Users can add new tasks, mark tasks as complete, and delete tasks. 
+
+### It does not have redux for state management.
 
 ## Features
 Add new tasks with title and description
